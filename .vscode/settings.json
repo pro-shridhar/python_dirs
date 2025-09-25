@@ -1,0 +1,15 @@
+{
+    "python.formatting.provider": "none",
+    "black-formatter.args": [
+        "--line-length",
+        "88"
+    ],
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python-envs.defaultEnvManager": "ms-python.python:pyenv",
+    "python-envs.pythonProjects": []
+}
