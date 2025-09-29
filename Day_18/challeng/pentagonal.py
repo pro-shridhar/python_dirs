@@ -7,4 +7,4 @@ def number_of_dot(n):
     return (n + (n - 1) * 3) + n - 2 + number_of_dot(n - 1)
 
 
-print(number_of_dot(3))
+print(number_of_dot(5))
