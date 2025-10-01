@@ -22,9 +22,9 @@ def thread_task():
 
 
 def main_task():
-    global x
+    # global x
     # setting global variable x as 0
-    x = 0
+    # x = 0
 
     # creating threads
     t1 = threading.Thread(target=thread_task)
@@ -46,6 +46,8 @@ def main_task():
 
 
 if __name__ == "__main__":
+    # main_task()
+    # print(x)
     for i in range(10):
         main_task()
         print("Iteration {0}: x = {1}".format(i, x))

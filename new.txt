@@ -1,2 +1,4 @@
-Hello, Python!
-File handling is easy with Python.
+It is important to differentiate this from using an if statement after the for loop in a
+list comprehension. An if statement after the for loop acts as a filter, including only
+elements that satisfy the condition, without providing an alternative for elements that
+do not meet the condition.

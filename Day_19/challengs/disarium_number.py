@@ -16,4 +16,3 @@ def is_disarium(n):
 
 
 print(is_disarium(6))
-print(math.log10(6))

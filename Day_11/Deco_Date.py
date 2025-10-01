@@ -2,10 +2,10 @@ import time
 
 
 def deco(fun):
-    def wapper():
+    def wapper(*args):
         start_time = time.time()
         print(start_time)
-        fun()
+        fun(*args)
         end_time = time.time()
         print(f"{(end_time - start_time):.2f}")
 
@@ -31,10 +31,10 @@ def run():
 
 
 @deco
-def run1():
+def run1(x):
     for i in range(2000000):
         pass
 
 
 # run()
-run1()
+run1(5)

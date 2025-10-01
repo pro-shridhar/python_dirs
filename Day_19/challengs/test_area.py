@@ -19,7 +19,7 @@ def test_area_of_country(name, area, expected):
     assert area_of_country(name, area) == expected
 
 
-if __name__ == "__main__":
-    import pytest
+# if __name__ == "__main__":
+#     import pytest
 
-    pytest.main([__file__])
+#     pytest.main([__file__])

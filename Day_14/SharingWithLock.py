@@ -24,9 +24,9 @@ def thread_task(lock):
 
 
 def main_task():
-    global x
+    # global x
     # setting global variable x as 0
-    x = 0
+    # x = 0
 
     # creating a lock
     lock = threading.Lock()

@@ -5,7 +5,7 @@ import time
 def process():
 
     for i in range(10000):
-        i
+        pass
 
     return
 
