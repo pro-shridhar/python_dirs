@@ -13,7 +13,7 @@ class Person:
         print("print")
 
 
-obj = Person()
+obj = Person("Admin")
 print(obj.prt())
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 # print(Person.class_name)
