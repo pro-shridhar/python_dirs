@@ -4,6 +4,10 @@
   --> Fixed size of creation
   --> Faster then list
   --> 
+
+# Printing information about the np.add function using the np.info() method
+  print(np.info(np.add))
+
 # 1st 
   import numpy as <name as we want{np}>
 
@@ -89,3 +93,37 @@ use np.ndilter(arr)
 
   for vertical spliting 
   np.vsplit(arr,<number of part you wnat>)
+
+# What is the use of view()?
+
+  The primary use of view() is for reinterpreting the data in an array without making a copy. This is particularly useful for:
+
+#  Matrix Operation on array 
+  
+  np.dot(arr,arr1) => for dot product
+  np.matmul(arr,arr1) => for dot product
+  np.cross(arr,arr1) => for cross product
+  np.argmin(arr) => index of minimum element of arr
+  np.argmax(arr) => just opposit of argmin
+
+# Aggregate ufuncs
+
+  a = np.array([1,2,3,4])
+  np.add.reduce(a)    # 10 (sum)
+  np.multiply.reduce(a)  # 24 (product)
+  np.add.accumulate(a) 
+
+# np.isfinit(arr)
+
+# np.isin()
+  used to check more then one elements in arr
+
+# np.put()
+  used for replacing multiple element at same time 
+
+# np.delete()
+
+# np.clip()
+  np.clip(arr,a_min = 23,a_max = 78)
+  in arr if any number is less then min it will replace by min
+  and same for max
